@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="UseCase Diagram" id="0">
+    <mxGraphModel dx="2505" dy="2043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor1" value="Tout le monde au cégep" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-110" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="actor3" value="Professeur de Technique" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="actor4" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry y="610" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" value="Créer la demande de réservation" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="320" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" value="Consulter les postes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="180" y="170" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" value="Modifier une réservation" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" value="Annuler une réservation" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-65" y="-180" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" value="Disponibilité des plages horaires" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="560" y="170" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc6" value="Filtrer la recherche" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="790" y="170" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc8" value="Visualiser locaux (DataGrid)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="410" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc9" value="Attribuer places pour examen" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="410" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc10" value="Modifier réservation d’examen" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc11" value="Statistique d’annulations" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="200" y="620" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="actor1" target="uc1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="actor1" target="uc2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="290" as="sourcePoint" />
+            <mxPoint x="55" y="-60.00000000000023" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="15" y="-60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="actor1" target="uc4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="actor1" target="uc5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="actor1" target="uc6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="actor1" target="uc8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="actor3" target="uc9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="15" y="440" />
+              <mxPoint x="330" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" parent="1" source="actor3" target="uc10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="actor4" target="uc11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1qVKMsCDSVq8H4D_LYhX-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="actor1" target="uc7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="340" />
+            </Array>
+            <mxPoint x="-80" y="340" as="sourcePoint" />
+            <mxPoint x="90" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc7" value="Vérifier locaux disponibles et adéquats" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="440" y="60" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

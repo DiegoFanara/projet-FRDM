@@ -7,7 +7,26 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="page de Login (s'ouvre en premier)" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <StackPanel>
+            <Grid Width="800" VerticalAlignment="Center" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="img\logo_64px.png" Width="64" Margin="16"/>
+                <Label Grid.Column="1" Content="Spot Manager" FontSize="35" FontFamily="Artifakt Element Black" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            </Grid>
+            <Separator Height="4"/>
+            <StackPanel Height="250">
+                <Label Content="Numéro d'Admission" Margin="60,20,60,0" Padding="6"/>
+                <TextBlock TextWrapping="Wrap" Text="No de DA" Foreground="Gray" FontSize="12" TextAlignment="Left" Margin="60,0,60,0" Padding="6" Background="LightGray"/>
+                <Label Content="Mot de Passe" Margin="60,20,60,0" Padding="6"/>
+                <TextBlock TextWrapping="Wrap" Text="MDP" Foreground="Gray" FontSize="12" TextAlignment="Left" Margin="60,0,60,0" Padding="6" Background="LightGray"/>
+                <Button Content="se connecter" Foreground="Gray" FontSize="15" Padding="6" HorizontalAlignment="Center" Margin="60,20,60,0" />
+            </StackPanel>
+        </StackPanel>
+
+
 
     </Grid>
 </Window>
