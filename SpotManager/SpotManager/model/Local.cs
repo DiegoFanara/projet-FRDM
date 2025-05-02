@@ -1,6 +1,6 @@
 ﻿namespace SpotManager.model;
 
-public class Local
+public class Local(string nom)
 {
-    string Nom { get; set; }
+    string Nom { get; set; } = nom;
 }
