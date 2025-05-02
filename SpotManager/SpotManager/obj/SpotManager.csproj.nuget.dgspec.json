@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj": {}
+    "C:\\Users\\forge\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj": {}
   },
   "projects": {
-    "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj": {
+    "C:\\Users\\forge\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj",
+        "projectUniqueName": "C:\\Users\\forge\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj",
         "projectName": "SpotManager",
-        "projectPath": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj",
-        "packagesPath": "C:\\Users\\2262164\\.nuget\\packages\\",
-        "outputPath": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\obj\\",
+        "projectPath": "C:\\Users\\forge\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj",
+        "packagesPath": "C:\\Users\\forge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\forge\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\2262164\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\forge\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -68,7 +62,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
