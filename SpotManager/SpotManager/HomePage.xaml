@@ -1,12 +1,65 @@
-﻿<Window x:Class="SpotManager.HomePage"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:SpotManager"
-        mc:Ignorable="d"
-        Title="HomePage" Height="450" Width="800">
+﻿<Window x:Class="SpotManager.MainWindow"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       Title="Spot Manager"
+       Height="600" Width="1200"
+       WindowStyle="None"
+       Background="#F2F2F2">
     <Grid>
-        <Label Content="Page de menu avec calendriers" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <DockPanel Grid.Row="0" Grid.ColumnSpan="2" Background="#2E3B4E">
+
+            <Image Source="img\logo_64px.png" 
+                   Width="40"
+                   Height="40"
+                   Margin="10,0,10,0"/>
+            
+            <TextBlock Text="Spot Manager"
+                      Foreground="White"
+                      FontWeight="Bold"
+                      VerticalAlignment="Center"
+                      Margin="5,0"/>
+            
+            <Button Content="✕"
+                   Width="30" Height="30"
+                   HorizontalAlignment="Right"
+                   Margin="0,10,10,10"
+                   Background="red"
+                   Foreground="White"
+                   BorderBrush="Black"
+                   Click="CloseButton_Click"/>
+        </DockPanel>
+        
+        <StackPanel Grid.Row="1" Grid.Column="0" Background="#D3D3D3">
+            <Button Content="Faire une réservation"
+                   Margin="20,20,20,10"
+                   Height="50"
+                   Background="#2D6FBF"
+                   Foreground="White"/>
+            <Button Content="Supprimer une réservation"
+                   Margin="20,0,20,10"
+                   Height="50"
+                   Background="#2D6FBF"
+                   Foreground="White"/>
+            <Button Content="Réserver un local (prof seulement)"
+                   Margin="20,0,20,20"
+                   Height="50"
+                   Background="#2D6FBF"
+                   Foreground="White"/>
+        </StackPanel>
+        
+        <Calendar Grid.Row="1" Grid.Column="1"
+                 Margin="10"
+                 DisplayMode="Month"/>
     </Grid>
 </Window>
