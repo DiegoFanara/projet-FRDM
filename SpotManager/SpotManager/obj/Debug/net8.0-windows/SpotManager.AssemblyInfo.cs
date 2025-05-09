@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpotManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+991348ad236865bd388f55dcc77471249aafd456")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b31b011e30a01c1a84bbf2acb95d7d1f422c0df")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpotManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpotManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

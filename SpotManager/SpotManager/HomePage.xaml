@@ -1,4 +1,4 @@
-﻿<Window x:Class="SpotManager.MainWindow"
+﻿<Window x:Class="SpotManager.HomePage"
        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
        Title="Spot Manager"
@@ -36,8 +36,8 @@
                    Margin="0,10,10,10"
                    Background="red"
                    Foreground="White"
-                   BorderBrush="Black"
-                   Click="CloseButton_Click"/>
+                   BorderBrush="Black" Click="Button_Click"
+                   />
         </DockPanel>
         
         <StackPanel Grid.Row="1" Grid.Column="0" Background="#D3D3D3">
