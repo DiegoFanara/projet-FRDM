@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wOeoG7YYAUk=",
+  "dgSpecHash": "iUV8V/gw9Bw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\forge\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\2389013\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\2389013\\.nuget\\packages\\extended.wpf.toolkit\\4.7.25104.5739\\extended.wpf.toolkit.4.7.25104.5739.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -42,3 +42,7 @@ C:\Users\forge\Desktop\projet-FRDM\SpotManager\SpotManager\obj\Debug\net8.0-wind
 C:\Users\forge\Desktop\projet-FRDM\SpotManager\SpotManager\obj\Debug\net8.0-windows\SpotManager.pdb
 C:\Users\forge\Desktop\projet-FRDM\SpotManager\SpotManager\obj\Debug\net8.0-windows\SpotManager.genruntimeconfig.cache
 C:\Users\forge\Desktop\projet-FRDM\SpotManager\SpotManager\obj\Debug\net8.0-windows\ref\SpotManager.dll
+C:\Users\2389013\projet-FRDM\SpotManager\SpotManager\obj\Debug\net8.0-windows\SpotManager.csproj.AssemblyReference.cache
+C:\Users\2389013\projet-FRDM\SpotManager\SpotManager\obj\Debug\net8.0-windows\HomePage.baml
+C:\Users\2389013\projet-FRDM\SpotManager\SpotManager\obj\Debug\net8.0-windows\HomePage.g.cs
+C:\Users\2389013\projet-FRDM\SpotManager\SpotManager\obj\Debug\net8.0-windows\WindowCreationReservation.g.cs
