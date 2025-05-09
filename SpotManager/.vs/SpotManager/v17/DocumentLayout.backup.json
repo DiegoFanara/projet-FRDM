@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\",
+  "WorkspaceRootPath": "C:\\Users\\2262164\\OneDrive - C\u00E9gep Marie-Victorin\\Desktop\\projet-FRDM\\SpotManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|d:\\developpement applications\\projet-frdm\\spotmanager\\spotmanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|solutionrelative:spotmanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|d:\\developpement applications\\projet-frdm\\spotmanager\\spotmanager\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|c:\\users\\2262164\\onedrive - c\u00E9gep marie-victorin\\desktop\\projet-frdm\\spotmanager\\spotmanager\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|solutionrelative:spotmanager\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|d:\\developpement applications\\projet-frdm\\spotmanager\\spotmanager\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|solutionrelative:spotmanager\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|c:\\users\\2262164\\onedrive - c\u00E9gep marie-victorin\\desktop\\projet-frdm\\spotmanager\\spotmanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|solutionrelative:spotmanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|d:\\developpement applications\\projet-frdm\\spotmanager\\spotmanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|c:\\users\\2262164\\onedrive - c\u00E9gep marie-victorin\\desktop\\projet-frdm\\spotmanager\\spotmanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|solutionrelative:spotmanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|c:\\users\\2262164\\onedrive - c\u00E9gep marie-victorin\\desktop\\projet-frdm\\spotmanager\\spotmanager\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|solutionrelative:spotmanager\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\2262164\\OneDrive - C\u00E9gep Marie-Victorin\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "SpotManager\\HomePage.xaml.cs",
-              "ToolTip": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\2262164\\OneDrive - C\u00E9gep Marie-Victorin\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\HomePage.xaml.cs",
               "RelativeToolTip": "SpotManager\\HomePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T15:48:07.598Z",
+              "WhenOpened": "2025-05-05T19:34:31.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\2262164\\OneDrive - C\u00E9gep Marie-Victorin\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SpotManager\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\2262164\\OneDrive - C\u00E9gep Marie-Victorin\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SpotManager\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:34:29.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\HomePage.xaml",
-              "RelativeDocumentMoniker": "SpotManager\\HomePage.xaml",
-              "ToolTip": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\HomePage.xaml",
-              "RelativeToolTip": "SpotManager\\HomePage.xaml",
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\2262164\\OneDrive - C\u00E9gep Marie-Victorin\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SpotManager\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\2262164\\OneDrive - C\u00E9gep Marie-Victorin\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml",
+              "RelativeToolTip": "SpotManager\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-22T15:34:59.413Z",
+              "WhenOpened": "2025-04-28T19:27:36.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "SpotManager\\MainWindow.xaml",
-              "ToolTip": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml",
-              "RelativeToolTip": "SpotManager\\MainWindow.xaml",
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\2262164\\OneDrive - C\u00E9gep Marie-Victorin\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\HomePage.xaml",
+              "RelativeDocumentMoniker": "SpotManager\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\2262164\\OneDrive - C\u00E9gep Marie-Victorin\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\HomePage.xaml",
+              "RelativeToolTip": "SpotManager\\HomePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-22T15:33:08.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "SpotManager\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml.cs",
-              "RelativeToolTip": "SpotManager\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T15:33:07.182Z",
+              "WhenOpened": "2025-04-22T15:34:59.413Z",
               "EditorCaption": ""
             }
           ]
