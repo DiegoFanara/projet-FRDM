@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2389013\\projet-FRDM\\SpotManager\\",
+  "WorkspaceRootPath": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|c:\\users\\2389013\\projet-frdm\\spotmanager\\spotmanager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|solutionrelative:spotmanager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|c:\\users\\2389013\\projet-frdm\\spotmanager\\spotmanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|solutionrelative:spotmanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|c:\\users\\2389013\\projet-frdm\\spotmanager\\spotmanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|d:\\developpement applications\\projet-frdm\\spotmanager\\spotmanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|solutionrelative:spotmanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|c:\\users\\2389013\\projet-frdm\\spotmanager\\spotmanager\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|d:\\developpement applications\\projet-frdm\\spotmanager\\spotmanager\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|solutionrelative:spotmanager\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|d:\\developpement applications\\projet-frdm\\spotmanager\\spotmanager\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|solutionrelative:spotmanager\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|d:\\developpement applications\\projet-frdm\\spotmanager\\spotmanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8575EAAA-7674-48BD-A398-C20A44416994}|SpotManager\\SpotManager.csproj|solutionrelative:spotmanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,27 +26,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\2389013\\projet-FRDM\\SpotManager\\SpotManager\\App.xaml",
-              "RelativeDocumentMoniker": "SpotManager\\App.xaml",
-              "ToolTip": "C:\\Users\\2389013\\projet-FRDM\\SpotManager\\SpotManager\\App.xaml",
-              "RelativeToolTip": "SpotManager\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-22T15:38:03.615Z",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "SpotManager\\HomePage.xaml.cs",
+              "ToolTip": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\HomePage.xaml.cs",
+              "RelativeToolTip": "SpotManager\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T15:48:07.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "HomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\2389013\\projet-FRDM\\SpotManager\\SpotManager\\HomePage.xaml",
+              "DocumentMoniker": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\HomePage.xaml",
               "RelativeDocumentMoniker": "SpotManager\\HomePage.xaml",
-              "ToolTip": "C:\\Users\\2389013\\projet-FRDM\\SpotManager\\SpotManager\\HomePage.xaml",
+              "ToolTip": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\HomePage.xaml",
               "RelativeToolTip": "SpotManager\\HomePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-22T15:34:59.413Z",
@@ -54,11 +55,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\2389013\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml",
               "RelativeDocumentMoniker": "SpotManager\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\2389013\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml",
+              "ToolTip": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml",
               "RelativeToolTip": "SpotManager\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-22T15:33:08.599Z",
@@ -66,11 +67,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\2389013\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SpotManager\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\2389013\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Developpement Applications\\projet-FRDM\\SpotManager\\SpotManager\\MainWindow.xaml.cs",
               "RelativeToolTip": "SpotManager\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
