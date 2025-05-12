@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using System.Windows.Navigation;
 
 namespace SpotManager
 {
@@ -10,6 +11,13 @@ namespace SpotManager
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void seConnecter(object sender, RoutedEventArgs e)
+        {
+            var homePage = new HomePage();
+            homePage.Show();
+            this.Close();
         }
     }
 }

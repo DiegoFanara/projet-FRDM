@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace SpotManager
 {
     /// <summary>
-    /// Logique d'interaction pour WindowCreationReservation.xaml
+    /// Interaction logic for WindowDeleteReservation.xaml
     /// </summary>
-    public partial class WindowCreationReservation : Window
+    public partial class WindowDeleteReservation : Window
     {
-        public WindowCreationReservation()
+        public WindowDeleteReservation()
         {
             InitializeComponent();
-        }
-
-        private void annulerBtn(object sender, RoutedEventArgs e)
-        {
-            this.Close();
         }
     }
 }

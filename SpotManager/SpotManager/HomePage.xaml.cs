@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using System.Windows.Controls;
 
 namespace SpotManager
 {
@@ -12,9 +13,17 @@ namespace SpotManager
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void disconnectBtn(object sender, RoutedEventArgs e)
         {
+            var mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
+        }
 
+        private void newReservationBtn(object sender, RoutedEventArgs e)
+        {
+            var windowCreationReservation = new WindowCreationReservation();
+            windowCreationReservation.Show();
         }
     }
 }

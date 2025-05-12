@@ -11,24 +11,53 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="93"/>
             <RowDefinition/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="100"/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-            <Label Content="Label" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Label Content="Label" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1"/>
-            <Label Content="Label" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2"/>
-            <DatePicker Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
-            <xctk:TimePicker Grid.Column="1" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
-            <xctk:TimePicker Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Border BorderBrush="Gray" BorderThickness="1" Margin="8,8,8,0" Padding="2,2,2,2">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Date" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Label Content="Début" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1"/>
+                <Label Content="Fin" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2"/>
+                <DatePicker Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                <xctk:TimePicker Grid.Column="1" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" BorderBrush="Gray"/>
+                <xctk:TimePicker Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            </Grid>
+        </Border>
+        <Grid Grid.Row="1">
+            <TabControl Padding="2,2,2,2" Margin="8,8,8,8">
+                <TabItem Header="S-013">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem Header="S-021">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem Header="S-027">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem Header="S-028">
+                    <Grid Background="#FFE5E5E5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="261*"/>
+                            <RowDefinition Height="52*"/>
+                        </Grid.RowDefinitions>
+                        <Image Width="100" Height="100" Margin="347,107,347,54"/>
+                    </Grid>
+                </TabItem>
+            </TabControl>
         </Grid>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="Annuler" Width="80" Height="24" Margin="0,0,8,8" Click="annulerBtn"/>
+            <Button Content="Reserver" Height="24" Width="80" Margin="0,0,8,8"/>
+        </StackPanel>
 
     </Grid>
 </Window>

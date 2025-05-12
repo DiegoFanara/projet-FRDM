@@ -3,7 +3,6 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
        Title="Spot Manager"
        Height="600" Width="1200"
-       WindowStyle="None"
        Background="#F2F2F2">
     <Grid>
         
@@ -19,7 +18,7 @@
         
         <DockPanel Grid.Row="0" Grid.ColumnSpan="2" Background="#2E3B4E">
 
-            <Image Source="img\logo_64px.png" 
+            <Image Source="/logo_64px.png" 
                    Width="40"
                    Height="40"
                    Margin="10,0,10,0"/>
@@ -29,15 +28,6 @@
                       FontWeight="Bold"
                       VerticalAlignment="Center"
                       Margin="5,0"/>
-            
-            <Button Content="✕"
-                   Width="30" Height="30"
-                   HorizontalAlignment="Right"
-                   Margin="0,10,10,10"
-                   Background="red"
-                   Foreground="White"
-                   BorderBrush="Black" Click="Button_Click"
-                   />
         </DockPanel>
         
         <StackPanel Grid.Row="1" Grid.Column="0" Background="#D3D3D3">
@@ -45,13 +35,13 @@
                    Margin="20,20,20,10"
                    Height="50"
                    Background="#2D6FBF"
-                   Foreground="White"/>
+                   Foreground="White" Click="newReservationBtn"/>
             <Button Content="Supprimer une réservation"
                    Margin="20,0,20,10"
                    Height="50"
                    Background="#2D6FBF"
                    Foreground="White"/>
-            <Button Content="Réserver un local (prof seulement)"
+            <Button Content="Réserver un local"
                    Margin="20,0,20,20"
                    Height="50"
                    Background="#2D6FBF"
