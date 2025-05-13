@@ -4,15 +4,59 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SpotManager"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
         Title="WindowDeleteReservation" Height="450" Width="800">
     <Grid>
         <DockPanel>
             <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Right">
-                <Button Content="Annuler" Width="80" Height="24" Margin="0,0,8,8"/>
+                <Button Content="Annuler" Width="80" Height="24" Margin="0,0,8,8" Click="abortButton"/>
                 <Button Content="Supprimer" Height="24" Width="80" Margin="0,0,8,8"/>
             </StackPanel>
-            <Grid Width="300" DockPanel.Dock="Left" Margin="8"/>
+            <Grid Width="300" DockPanel.Dock="Left" Margin="8">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <GroupBox Header="Temps" Grid.Row="0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <CheckBox Content="Filtrer par le temps"/>
+                        <Label Content="Début" Grid.Row="1"/>
+                        <DatePicker Grid.Row="2"/>
+                        <xctk:TimePicker Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                        <Label Content="Fin" Grid.Row="4"/>
+                        <DatePicker Grid.Row="5"/>
+                        <xctk:TimePicker Grid.Row="6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                    </Grid>
+                </GroupBox>
+                <GroupBox Header="Poste" Grid.Row="1">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <StackPanel Orientation="Horizontal" Margin="8,8,0,0">
+                            <CheckBox Content="S-013" Margin="0,0,16,0"/>
+                            <CheckBox Content="S-021" Margin="0,0,16,0"/>
+                            <CheckBox Content="S-027" Margin="0,0,16,0"/>
+                            <CheckBox Content="S-028" Margin="0,0,16,0"/>
+                        </StackPanel>
+                        <CheckBox Content="Filtrer par poste" Grid.Row="1" Margin="8,8,0,0"/>
+                        <ListBox d:ItemsSource="{d:SampleData ItemCount=60}" Grid.Row="2"/>
+                    </Grid>
+                </GroupBox>
+
+            </Grid>
             <ListBox d:ItemsSource="{d:SampleData ItemCount=50}" Margin="0,8,8,8" UseLayoutRounding="False" />
         </DockPanel>
 

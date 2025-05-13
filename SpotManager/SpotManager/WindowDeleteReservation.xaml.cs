@@ -23,5 +23,15 @@ namespace SpotManager
         {
             InitializeComponent();
         }
+
+        private void abortButton(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void deleteButton(object sender, RoutedEventArgs e) 
+        {
+            this.Close();
+        }
     }
 }
