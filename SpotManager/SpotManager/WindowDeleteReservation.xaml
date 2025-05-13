@@ -21,15 +21,15 @@
                 <GroupBox Header="Temps" Grid.Row="0">
                     <Grid>
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
                         </Grid.RowDefinitions>
-                        <CheckBox Content="Filtrer par le temps"/>
+                        <CheckBox Content="Filtrer par le temps" Margin="8,8,0,0"/>
                         <Label Content="Début" Grid.Row="1"/>
                         <DatePicker Grid.Row="2"/>
                         <xctk:TimePicker Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
@@ -52,7 +52,7 @@
                             <CheckBox Content="S-028" Margin="0,0,16,0"/>
                         </StackPanel>
                         <CheckBox Content="Filtrer par poste" Grid.Row="1" Margin="8,8,0,0"/>
-                        <ListBox d:ItemsSource="{d:SampleData ItemCount=60}" Grid.Row="2"/>
+                        <ListBox d:ItemsSource="{d:SampleData ItemCount=60}" Grid.Row="2" Margin="0,8,0,0"/>
                     </Grid>
                 </GroupBox>
 
