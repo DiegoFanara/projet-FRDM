@@ -45,7 +45,7 @@
                    Margin="20,0,20,20"
                    Height="50"
                    Background="#2D6FBF"
-                   Foreground="White"/>
+                   Foreground="White" Click="localReservationBtn"/>
         </StackPanel>
         
         <Calendar Grid.Row="1" Grid.Column="1"

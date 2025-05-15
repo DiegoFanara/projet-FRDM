@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\forge\Desktop\projet-FRDM\SpotManager\SpotManager\obj\Debug\net8.0-windows\
+C:\Users\2389013\Source\Repos\DiegoFanara\projet-FRDM\SpotManager\SpotManager\obj\Debug\net8.0-windows\
 SpotManager
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\forge\Desktop\projet-FRDM\SpotManager\SpotManager\App.xaml
-4-1788073985
+C:\Users\2389013\Source\Repos\DiegoFanara\projet-FRDM\SpotManager\SpotManager\App.xaml
+5-757607444
 
-131678431550
-212-1212188492
-HomePage.xaml;MainWindow.xaml;WindowCreationReservation.xaml;WindowDeleteReservation.xaml;
+15-940419519
+215-348493326
+HomePage.xaml;MainWindow.xaml;WindowCreationReservation.xaml;WindowDeleteReservation.xaml;WindowReservationLocal.xaml;
 
 False
 

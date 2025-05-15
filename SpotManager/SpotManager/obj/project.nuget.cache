@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "4CD9DKT0TjY=",
+  "dgSpecHash": "PHY6hBBEvLM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\forge\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj",
+  "projectFilePath": "C:\\Users\\2389013\\Source\\Repos\\DiegoFanara\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\forge\\.nuget\\packages\\extended.wpf.toolkit\\4.7.25104.5739\\extended.wpf.toolkit.4.7.25104.5739.nupkg.sha512"
+    "C:\\Users\\2389013\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
+    "C:\\Users\\2389013\\.nuget\\packages\\extended.wpf.toolkit\\4.7.25104.5739\\extended.wpf.toolkit.4.7.25104.5739.nupkg.sha512",
+    "C:\\Users\\2389013\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.5\\microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512",
+    "C:\\Users\\2389013\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512"
   ],
   "logs": []
 }

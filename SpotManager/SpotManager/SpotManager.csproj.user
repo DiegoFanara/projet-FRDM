@@ -16,6 +16,9 @@
     <Compile Update="WindowDeleteReservation.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="WindowReservationLocal.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="HomePage.xaml">
@@ -25,6 +28,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="WindowCreationReservation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowReservationLocal.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -31,5 +31,10 @@ namespace SpotManager
             var windowDeleteReservation = new WindowDeleteReservation();
             windowDeleteReservation.Show();
         }
+        private void localReservationBtn(object sender, RoutedEventArgs e)
+        {
+            var windowReservationLocal = new WindowReservationLocal();
+            windowReservationLocal.Show();
+        }
     }
 }

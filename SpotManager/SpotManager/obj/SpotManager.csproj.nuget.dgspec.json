@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\forge\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj": {}
+    "C:\\Users\\2389013\\Source\\Repos\\DiegoFanara\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\forge\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj": {
+    "C:\\Users\\2389013\\Source\\Repos\\DiegoFanara\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\forge\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj",
+        "projectUniqueName": "C:\\Users\\2389013\\Source\\Repos\\DiegoFanara\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj",
         "projectName": "SpotManager",
-        "projectPath": "C:\\Users\\forge\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj",
-        "packagesPath": "C:\\Users\\forge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\forge\\Desktop\\projet-FRDM\\SpotManager\\SpotManager\\obj\\",
+        "projectPath": "C:\\Users\\2389013\\Source\\Repos\\DiegoFanara\\projet-FRDM\\SpotManager\\SpotManager\\SpotManager.csproj",
+        "packagesPath": "C:\\Users\\2389013\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2389013\\Source\\Repos\\DiegoFanara\\projet-FRDM\\SpotManager\\SpotManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\forge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\2389013\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,16 +44,23 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
             "Extended.Wpf.Toolkit": {
               "target": "Package",
               "version": "[4.7.25104.5739, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.5, )"
             }
           },
           "imports": [
@@ -75,7 +82,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

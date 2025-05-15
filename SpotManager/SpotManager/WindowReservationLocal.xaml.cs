@@ -1,5 +1,4 @@
-﻿using SpotManager.ViewModel;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,19 +15,14 @@ using System.Windows.Shapes;
 namespace SpotManager
 {
     /// <summary>
-    /// Logique d'interaction pour WindowCreationReservation.xaml
+    /// Logique d'interaction pour WindowReservationLocal.xaml
     /// </summary>
-    public partial class WindowCreationReservation : Window
+    public partial class WindowReservationLocal : Window
     {
-        private readonly ViewModelCreationReservation _viewModelCreationReservation;
-
-        public WindowCreationReservation()
+        public WindowReservationLocal()
         {
-            _viewModelCreationReservation = new ViewModelCreationReservation();
             InitializeComponent();
-            this.DataContext = _viewModelCreationReservation;
         }
-
         private void annulerBtn(object sender, RoutedEventArgs e)
         {
             this.Close();
